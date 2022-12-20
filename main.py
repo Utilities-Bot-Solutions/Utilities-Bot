@@ -54,4 +54,4 @@ async def unban(interaction: nextcord.Interaction, user: nextcord.User, reason: 
          await user.unban(reason=reason)
 
 server_code()
-bot.run('MTA1MzQ4NTA2Mjc3MzAzNTAzOA.Gl8f0c.k4LhHsVducNuTRhH04MUAeM3v-QQLmHujgItx8')
+bot.run('TOKEN')
