@@ -20,6 +20,8 @@ async def on_ready():
 logging = True
 logschannel = 1053408045100711940
 
+#Use the @bot.slash_command when making a new command
+
 @bot.slash_command()
 async def kick(interaction: nextcord.Interaction, user: nextcord.Member, reason: str):
   if not interaction.user.guild_permissions.kick_members:
