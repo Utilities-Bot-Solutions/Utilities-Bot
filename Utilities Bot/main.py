@@ -67,4 +67,4 @@ async def timeout(interaction: nextcord.Interaction, user: nextcord.User, reason
          await user.timeout(reason=reason)
                               
 server_code()
-bot.run('MTA1MzQ4NTA2Mjc3MzAzNTAzOA.GUzBYu.B_bmmVxKoz4QNTeRSPrbeBKLOtX2P1r4rav5mY')
+bot.run('TOKEN_ID')
