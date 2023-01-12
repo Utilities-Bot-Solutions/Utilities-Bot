@@ -1,4 +1,4 @@
-#Use link from Webview and sync to hosting software of your choice.
+#Use link from Webview and sync to hosting software of your choice
 from flask import Flask
 from threading import Thread
 
