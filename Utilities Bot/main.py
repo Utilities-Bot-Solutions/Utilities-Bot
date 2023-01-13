@@ -65,7 +65,7 @@ async def timeout(interaction: nextcord.Interaction, user: nextcord.User, reason
          await log_channel.send(f"{user.mention} was put in timeout by {interaction.user.mention} for {reason}")
          await user.timeout(reason=reason)
 
-#Note: When using this command, don't abuse it. Thanks.
+#Note: When using this command, don't abuse it.
 @bot.slash_command()
 async def test(ctx, arg):
   await ctx.send(arg)
