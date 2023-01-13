@@ -1,6 +1,6 @@
 import nextcord
 from nextcord.ext import commands
-from server_code import server_code
+from server_code import server_code\
 
 intents = nextcord.Intents.default()
 intents = nextcord.Intents().all()
@@ -64,6 +64,10 @@ async def timeout(interaction: nextcord.Interaction, user: nextcord.User, reason
          log_channel = bot.get_channel(logschannel)
          await log_channel.send(f"{user.mention} was put in timeout by {interaction.user.mention} for {reason}")
          await user.timeout(reason=reason)
+
+@bot.slash_command()
+async def test(ctx, arg):
+  await ctx.send(arg)
                               
 server_code()
 bot.run('TOKEN_ID')
