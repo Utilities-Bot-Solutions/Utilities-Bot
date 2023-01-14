@@ -1,6 +1,7 @@
+from discord import ChannelType
 import nextcord
 from nextcord.ext import commands
-from server_code import server_code\
+from server_code import server_code
 
 intents = nextcord.Intents.default()
 intents = nextcord.Intents().all()
