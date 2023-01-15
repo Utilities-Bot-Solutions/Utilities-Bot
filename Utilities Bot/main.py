@@ -118,4 +118,4 @@ async def queue(ctx: commands.Context):
         return await ctx.send("Queue is empty.")
                               
 server_code()
-bot.run('MTA1MzQ4NTA2Mjc3MzAzNTAzOA.GF1enE.-GjtkS_b_Hdc23wIROnTNaeErsqppiuRWByKe4')
+bot.run('TOKEN_ID')
